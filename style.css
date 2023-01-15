@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Cormorant+Garamond:wght@300;400&family=Montserrat&family=Oxanium&family=Poppins:ital,wght@0,400;1,300&display=swap');
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oxanium', cursive;
+  font-family: 'Poppins', sans-seri;
+}
+h1,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+/* Header */
+header {
+  display: flex;
+  max-width: 100%;
+  background-color: #121212;
+  padding: 0.5rem 4rem;
+  maegin: 0 auto;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+h1 {
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  padding-left: 0.5rem;
+}
+
+/* Main */
+main {
+  display: grid;
+  height: 100%;
+}
+.containers {
+  padding: 0.5rem 4rem;
+}
+
+.top-section {
+  background-image: url('https://livedemo00.template-help.com/wt_prod-28464/images/home-01-1920x904.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: 90% 100%; */
+  background-color: #121212;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.left-top-section {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  max-width: 60%;
+}
+#lifestyle {
+  padding-top: 1rem;
+  letter-spacing: 1.2px;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-top: 0;
+  font-family: 'Montserrat';
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-left: 2rem;
+}
+#keeps {
+  margin-top: 0;
+  font-size: 7rem;
+  line-height: 0.625;
+  font-family: 'Poppins';
+  font-weight: bolder;
+  padding-top: 0;
+}
+.top-you {
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 2rem;
+  position: relative;
+}
+#you {
+  font-size: 7rem;
+  font-family: 'Poppins';
+  font-weight: bolder;
+  line-height: 1;
+}
+#energy {
+  font-weight: 300;
+  font-size: 3rem;
+  font-family: 'Montserrat';
+  color: red;
+  line-height: 2;
+  margin: 0;
+  position: absolute;
+}
+
+.top-section-p {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+.btn {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.right-top-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+a {
+  color: white;
+}
+
+/* About Section */
+
+.about {
+  display: flex;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding-bottom: 4rem;
+}
+.about-image {
+  max-width: 70%;
+  width: 100%;
+}
+
+.about-image img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 4rem;
+  max-width: 50%;
+}
+.about-header {
+  color: red;
+  letter-spacing: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.about-mini-header {
+  color: #4c4d4f;
+  font-weight: bolder;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+.about-p {
+  font-size: 1rem;
+  text-align: justify;
+}
+.gray {
+  color: grey;
+}
+
+/* Join Section */
+.join-section {
+  background-image: url('https://livedemo00.template-help.com/wt_prod-28464/images/home-03-1920x620.jpg');
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: right 90%;
+}
+.join {
+  max-width: 80%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: white;
+}
+.join-p {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+#season {
+  font-size: 7rem;
+  font-weight: bolder;
+  line-height: 1px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#create {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0;
+}
+#create p {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1;
+  font-family: 'Montserrat';
+}
+
+.join h3 {
+  text-align: center;
+  color: red;
+  font-size: 6rem;
+  margin-top: 0;
+  line-height: 0;
+  font-family: 'Poppins';
+  padding-bottom: 3rem;
+}
+.btn-join {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+/* More Info */
+.more-info-sections {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  gap: 1rem;
+}
+.more-info-section {
+  text-align: center;
+}
+.info-icon {
+  padding-bottom: 2rem;
+}
+.icon {
+  color: #4c4d4f;
+  font-size: 3.5rem;
+}
+.info-text {
+  color: gray;
+}
